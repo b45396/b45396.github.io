@@ -1,9 +1,9 @@
-YPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مكتبة Rise of Kingdoms | 40 مقال حصري</title>
+<title>دليل Rise of Kingdoms للمبتدئين</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
 
@@ -13,134 +13,122 @@ body{
   font-family:'Cairo',sans-serif;
   background:#0f172a;
   color:#f8fafc;
+  line-height:1.9;
 }
 header{
   background:linear-gradient(135deg,#1e3c72,#2a5298);
   padding:50px 20px;
   text-align:center;
 }
-header h1{margin:0;font-size:38px}
+header h1{margin:0;font-size:36px}
 header p{max-width:900px;margin:15px auto;color:#e5e7eb}
 
 .container{
-  max-width:1200px;
+  max-width:1000px;
   margin:30px auto;
   padding:20px;
 }
 
-.articles{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
-  gap:15px;
-}
-
-button{
-  background:#1e293b;
-  color:#f8fafc;
-  border:2px solid #f5c16c;
-  padding:15px;
-  border-radius:12px;
-  cursor:pointer;
-  font-size:15px;
-  font-weight:700;
-}
-button:hover{background:#334155}
-
-.article-box{
-  margin-top:40px;
-  background:#020617;
-  padding:30px;
-  border-radius:16px;
-  display:none;
-}
-.article-box h2{color:#f5c16c}
+h2,h3{color:#f5c16c}
 
 img{
   width:100%;
   border-radius:14px;
-  margin:15px 0;
+  margin:18px 0;
+  box-shadow:0 10px 25px rgba(0,0,0,.5);
 }
 
-.youtube{
-  margin:25px 0;
-  position:relative;
-  padding-bottom:56.25%;
-  height:0;
+.video-link{
+  display:block;
+  background:#020617;
+  border:2px solid #f5c16c;
+  padding:20px;
+  border-radius:14px;
+  text-align:center;
+  text-decoration:none;
+  color:#f8fafc;
+  font-size:18px;
+  font-weight:800;
+  margin:30px 0;
 }
-.youtube iframe{
-  position:absolute;
-  width:100%;
-  height:100%;
-  border:0;
+.video-link:hover{
+  background:#1e293b;
 }
+
+.back{
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 24px;
+  background:#f5c16c;
+  color:#020617;
+  text-decoration:none;
+  border-radius:10px;
+  font-weight:800;
+}
+.back:hover{background:#eab308}
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>📚 مكتبة Rise of Kingdoms</h1>
+<h1>دليل شامل للمبتدئين في Rise of Kingdoms</h1>
 <p>
-أكثر من 40 مقال حصري، قانوني 100%، بدون أي مخالفات،
+شرح قانوني 100% يساعدك على التقدم في اللعبة بدون غش
 ومناسب تمامًا لـ Google AdSense
 </p>
 </header>
 
 <div class="container">
 
-<h2>اختر مقال 👇</h2>
-
-<div class="articles">
-<script>
-for(let i=1;i<=40;i++){
-document.write(`<button onclick="openArticle(${i})">مقال رقم ${i}</button>`);
-}
-</script>
-</div>
-
-<div id="article" class="article-box"></div>
-
-</div>
-
-<script>
-function openArticle(num){
-document.getElementById("article").style.display="block";
-document.getElementById("article").innerHTML=`
-<h2>مقال رقم ${num} – Rise of Kingdoms</h2>
-
+<h2>مقدمة</h2>
 <p>
-هذا مقال حصري عن لعبة Rise of Kingdoms مخصص للاعبين العرب.
-المحتوى مكتوب بأسلوب بشري واحترافي، ويشرح مفاهيم اللعبة
-بدون أي غش أو طرق مخالفة.
+Rise of Kingdoms من أشهر ألعاب الاستراتيجية في العالم،
+وتعتمد على التخطيط، اختيار القادة، وإدارة الموارد.
+في هذا الدليل ستتعلم الأساسيات الصحيحة من البداية.
 </p>
 
-<img src="https://images.unsplash.com/photo-1616627561566-d7f84f472e41">
+<img src="https://images.unsplash.com/photo-1616627561566-d7f84f472e41" alt="Strategy Game">
 
+<h2>اختيار الحضارة</h2>
 <p>
-في هذا المقال نتحدث عن التطوير الذكي، اختيار القادة،
-إدارة الموارد، والانضمام للتحالفات القوية.
-اتباع هذه النصائح يساعدك على التقدم بثبات وأمان.
+اختيار الحضارة يؤثر بشكل مباشر على تقدمك.
+الصين مناسبة للبناء السريع، وروما قوية في القتال،
+وكل حضارة لها مميزاتها الخاصة.
 </p>
 
-<h3>فيديوهات شرح (اختر واحد)</h3>
+<img src="https://images.unsplash.com/photo-1558980664-10e7176e92f5" alt="Commanders">
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/3dClE2ZcH_w" allowfullscreen></iframe>
-</div>
-
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/jn1k9pL0b8Q" allowfullscreen></iframe>
-</div>
-
+<h2>أفضل القادة للمبتدئين</h2>
 <p>
-⚠️ إذا لم يعمل الفيديو، اضغط هنا:
-<a href="https://www.youtube.com/results?search_query=rise+of+kingdoms+guide" target="_blank" style="color:#f5c16c">
-فتح شروحات Rise of Kingdoms على يوتيوب
+من الأفضل التركيز على قائد أو قائدين فقط.
+Sun Tzu و Joan of Arc من أفضل الخيارات
+للاعبين الجدد بدون دفع أموال.
+</p>
+
+<h3>🎥 فيديو شرح كامل (اضغط للمشاهدة)</h3>
+
+<a class="video-link"
+   href="https://www.youtube.com/results?search_query=rise+of+kingdoms+beginner+guide"
+   target="_blank">
+👉 اضغط هنا لمشاهدة شرح Rise of Kingdoms على يوتيوب
 </a>
+
+<p>
+الرابط يفتح مباشرة على يوتيوب ويعمل على أي جهاز
+بدون مشاكل أو حظر.
 </p>
-`;
-}
-</script>
+
+<h2>نصائح مهمة</h2>
+<p>
+لا تضيّع الموارد في التطوير العشوائي،
+وانضم لتحالف نشط،
+وتابع الأحداث اليومية للحصول على مكافآت مجانية.
+</p>
+
+<a href="index.html" class="back">⬅ الرجوع للصفحة الرئيسية</a>
+
+</div>
 
 </body>
-</html
+</html>
